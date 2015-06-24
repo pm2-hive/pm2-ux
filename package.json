@@ -1,0 +1,20 @@
+{
+  "name": "pm2-ux",
+  "version": "1.1.0",
+  "description": "Module to monitor redis",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pmx": "latest",
+    "shelljs": "*",
+    "pm2" : "*"
+  },
+  "author": "",
+  "license": "ISC",
+  "apps": [
+    {
+      "script": "probe-mongo.js"
+    }
+  ]
+}
